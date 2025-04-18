@@ -30,7 +30,7 @@ export default function ProductPlugin() {
 
   return (
     <div style={{ fontFamily: 'Arial', padding: 16 }}>
-      <h3>🛍️ Select Products</h3>
+      <h3>🛍️ Select Products List</h3>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 16 }}>
         {products.map(p => (
           <div key={p.id} style={{
