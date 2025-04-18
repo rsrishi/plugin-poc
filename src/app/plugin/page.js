@@ -52,7 +52,7 @@ export default function ProductPlugin() {
         style={{ marginTop: 24, padding: '10px 20px', fontWeight: 'bold' }}
         onClick={sendSelectedToHost}
       >
-        Save Selected Products
+        Save Products 
       </button>
     </div>
   );
